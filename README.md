@@ -22,7 +22,7 @@
 
 | Скрипт                                                                                                                                                                                                                             | Команда                                                                                                           |
 |------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------|
-| [bash/install-bash-completion.sh](bash/install-bash-completion.sh)<br/>Стандартный механизм автодополнения команд и аргументов для Git Bash на Windows, не включённый по умолчанию                                                 | `curl -fsSL https://raw.githubusercontent.com/Artemeey/features/main/bash/win-install-bash-completion.sh \| bash` |
+| [bash/install-bash-completion.sh](bash/win-install-bash-completion.sh)<br/>Стандартный механизм автодополнения команд и аргументов для Git Bash на Windows, не включённый по умолчанию                                             | `curl -fsSL https://raw.githubusercontent.com/Artemeey/features/main/bash/win-install-bash-completion.sh \| bash` |
 | [bash/win-setup-gitbash-lang.sh](bash/win-setup-gitbash-lang.sh)<br/>В некоторых окружениях ввод кириллицы и других UTF символов может привести к странной работе консоли. Этот скрипт проивзодит настройку и включает режим UTF-8 | `curl -fsSL https://raw.githubusercontent.com/Artemeey/features/main/bash/win-setup-gitbash-lang.sh \| bash` |
 
 ## Отказ от ответственности
