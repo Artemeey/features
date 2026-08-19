@@ -1,2 +1,41 @@
-# features
-A collection of useful scripts, small utilities, and ready-to-use solutions for everyday development.  Includes tools for environment setup, task automation, Git, Bash, Windows/Linux, and other practical utilities that make development easier and save time.
+# Features
+
+Полезная информация, скрипты и готовые решения для повседневной работы разработчика.
+
+Здесь будут собраны скрипты для настройки окружения, автоматизации рутинных задач, работы с Git, Bash, Windows/Linux и
+другие небольшие инструменты, которые упрощают разработку и экономят время.
+
+## curl | bash pattern
+
+**curl | bash pattern** — это способ запуска скрипта из удалённого источника путём получения его содержимого и
+немедленного выполнения.
+
+Для запуска скриптов из этого репозитория рекомендую использовать этот подход вместо клонирования всего репозитория.
+
+## Git Bash
+
+Моё основное рабочее окружение — Windows. При этом я люблю Linux и считаю его окружение значительно более удобным для
+разработчиков.
+
+Поэтому в Windows я предпочитаю использовать Git Bash и стараюсь писать скрипты таким образом, чтобы они одинаково
+хорошо работали как в Windows через Git Bash, так и в Linux.
+
+| Скрипт                                                                                                                                                                                     | Команда                                                                                                          |
+|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------------------------|
+| [bash/win-install-bash-completion.sh](bash/win-install-bash-completion.sh)<br/>Стандартный механизм автодополнения команд и аргументов для Git Bash на Windows, не включённый по умолчанию | `wget -qO- https://raw.githubusercontent.com/Artemeey/features/main/bash/win-install-bash-completion.sh \| bash` |
+
+## Отказ от ответственности
+
+Скрипты предоставляются «как есть», без каких-либо гарантий. Перед запуском рекомендуется самостоятельно ознакомиться с
+их исходным кодом, особенно если скрипт требует повышенных привилегий или загружает данные из сторонних источников.
+
+Сторонние программы, зависимости и скрипты подчиняются собственным лицензиям, условиям использования и политикам
+безопасности. Их использование осуществляется на ваш риск.
+
+---
+
+Scripts are provided as-is, without warranty. Review the source code before running any script, especially scripts
+executed with elevated privileges or downloading data from third-party sources.
+
+Third-party software, dependencies, and scripts remain subject to their own licenses, terms of use, and security
+policies. Use them at your own risk.
